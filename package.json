@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-kz",
+  "version": "1.0.0",
+  "private": true,
+  "description": "KZ ESLint Rules",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasparszarinovs/eslint-config-kz.git"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^5.10.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^16.1.0"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "eslint": ">=8"
+  }
+}
